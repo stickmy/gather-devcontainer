@@ -1,0 +1,11 @@
+{
+    "name": "gather-devcontainer",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": { "VARIANT": "16" }
+    },
+    "features": {
+        "ghcr.io/stickmy/merchant-legacy-dev-features/gather:latest": {}
+    }      
+}
+  
